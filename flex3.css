@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    background-color: #8B181B;
+
+}
+
+h1 {
+    font-size: 8em;
+    color: #FFFFFF;
+}
+h2 {
+text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+.container{
+    display: flow-root;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: 1px solid #000000;*/
+
+}
+
+.container div{
+    //the child
+    padding: 10px;
+    margin: 0px;
+    border: 1px solid #000000;
+    flex: 0 1 10em;
+    // item property flex: flex-grow flex-shrink flex-basis;
+    
+}
+
+.boxen{
+    display: inline-flex;
+    flex-direction: column;
+}
+
